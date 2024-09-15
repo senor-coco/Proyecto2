@@ -1,0 +1,111 @@
+/* Estilos básicos de la página */
+body {
+    background-image: url('https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/05/hollow-knight-1943657.jpg?tf=1200x'); /* Imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado principal */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #ffcc00; /* Color dorado */
+    margin-top: 20px;
+}
+
+/* Subtítulos */
+h2 {
+    font-size: 28px;
+    color: #ff9900; /* Color dorado más oscuro */
+}
+
+/* Estilos de la tabla */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Estilos de las celdas */
+td {
+    padding: 20px;
+    vertical-align: top;
+    color: #e0e0e0;
+}
+
+/* Estilos de las listas */
+ul, ol {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+/* Estilos de las imágenes */
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    height: 250px;
+}
+
+/* Portada con la imagen y el título */
+.portada {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.portada img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.portada h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: #ffcc00; /* Color dorado */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+/* Ajuste del logotipo UNACH */
+.logo-unach {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 50px; /* Tamaño reducido */
+    height: auto;
+    opacity: 0.8;
+}
+
+.logo-unach img {
+    width: 100%; /* Ajusta el tamaño del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+/* Fuente personalizada */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos para el subtítulo de los DLCs */
+h3 {
+    font-size: 22px;
+    color: #ffcc00;
+    margin-top: 20px;
+}
