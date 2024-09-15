@@ -7,15 +7,31 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+
     <!-- Portada con la imagen y el título -->
     <div class="portada">
         <img src="imagenes/png_portada.png" alt="Portada de JavaScript">
         <h1>JavaScript</h1>
     </div>
 
+    <!-- Índice de Contenidos -->
+    <div class="indice">
+        <h2>Índice</h2>
+        <ul>
+            <li><a href="#introduccion">Introducción a JavaScript</a></li>
+            <li><a href="#proposito">Propósito del Sitio Web</a></li>
+            <li><a href="#lineadeltiempo">Línea del Tiempo</a></li>
+            <li><a href="#historia">Historia y Evolución de los Lenguajes de Programación</a></li>
+            <li><a href="#enlacesdestacados">Enlaces Destacados</a></li>
+            <li><a href="#objetivo">Objetivo del Sitio Web</a></li>
+            <li><a href="#mapamental">Mapa Mental y Conceptual</a></li>
+        </ul>
+    </div>
+
+    <!-- Secciones del contenido -->
     <table>
         <!-- Fila sobre Introducción a JavaScript -->
-        <tr>
+        <tr id="introduccion">
             <td colspan="2">
                 <h2>Introducción a JavaScript</h2>
                 <ul>
@@ -29,7 +45,7 @@
         </tr>
 
         <!-- Fila sobre el Propósito del Sitio Web -->
-        <tr>
+        <tr id="proposito">
             <td colspan="2">
                 <h2>Propósito del Sitio Web</h2>
                 <p><strong>Descripción:</strong> El propósito de este sitio web es explorar el lenguaje JavaScript, sus usos, características y evolución en el contexto del desarrollo web. Además, se discutirán las características principales que hacen que JavaScript sea un lenguaje crucial en la programación moderna.</p>
@@ -38,7 +54,7 @@
         </tr>
 
         <!-- Fila sobre la Línea del Tiempo -->
-        <tr>
+        <tr id="lineadeltiempo">
             <td colspan="2">
                 <h2>La Línea del Tiempo</h2>
                 <p><strong>¿Qué es una línea del tiempo?</strong> Una línea del tiempo es una representación gráfica de eventos históricos o de desarrollo a lo largo de un período. Se utiliza para mostrar la secuencia de acontecimientos en un formato visual que facilita la comprensión del orden y la duración de los eventos. Puede ser lineal o en forma de cronograma y ayuda a visualizar cómo los eventos están relacionados y cómo evolucionan a lo largo del tiempo.</p>
@@ -50,14 +66,14 @@
     <!-- Sección del Video -->
     <div class="video">
         <h2>Historia y Evolución de los Lenguajes de Programación</h2>
-        <p><strong>Video:</strong> A continuación, puedes ver un video sobre la historia y evolución de los lenguajes de programación. También puedes acceder al video en YouTube si prefieres verlo allí.
-            <p><strong>Un poco de la historia:</strong> JavaScript fue creado por Brendan Eich en 1995 como un lenguaje de scripting para el navegador Netscape Navigator. Inicialmente conocido como Mocha, luego cambió su nombre a LiveScript y finalmente a JavaScript. Con el tiempo, JavaScript ha pasado de ser un simple lenguaje de scripting a convertirse en un pilar fundamental en el desarrollo web. Desde su estándar inicial ECMAScript 1.0 hasta las versiones más recientes como ES6, ES7 y más allá, JavaScript ha mejorado constantemente en términos de funcionalidad, rendimiento y compatibilidad.</p>
+        <p><strong>Video:</strong> A continuación, puedes ver un video sobre la historia y evolución de los lenguajes de programación. También puedes acceder al video en YouTube si prefieres verlo allí.</p>
+        <p><strong>Un poco de la historia:</strong> JavaScript fue creado por Brendan Eich en 1995 como un lenguaje de scripting para el navegador Netscape Navigator. Inicialmente conocido como Mocha, luego cambió su nombre a LiveScript y finalmente a JavaScript. Con el tiempo, JavaScript ha pasado de ser un simple lenguaje de scripting a convertirse en un pilar fundamental en el desarrollo web. Desde su estándar inicial ECMAScript 1.0 hasta las versiones más recientes como ES6, ES7 y más allá, JavaScript ha mejorado constantemente en términos de funcionalidad, rendimiento y compatibilidad.</p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/TrzZ7YQyXbs" frameborder="0" allowfullscreen></iframe>
         <p><a href="https://www.youtube.com/watch?v=TrzZ7YQyXbs" target="_blank">Ver en YouTube</a></p>
     </div>
 
     <!-- Enlaces Destacados -->
-    <div class="enlaces-destacados">
+    <div class="enlaces-destacados" id="enlacesdestacados">
         <h2>Enlaces Destacados</h2>
         <ul>
             <li><a href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/JavaScript_basics" target="_blank">Fundamentos de JavaScript</a>: Una guía completa para comenzar con JavaScript, cubriendo los conceptos básicos y esenciales.</li>
@@ -67,7 +83,7 @@
     </div>
 
     <!-- Sección sobre Objetivos -->
-    <div class="historia-objetivos"> 
+    <div id="objetivo" class="historia-objetivos"> 
         <h2>Objetivos del Sitio</h2>
         <p>Este sitio tiene como objetivo proporcionar una plataforma integral para aprender y explorar JavaScript. Está dirigido a desarrolladores de todos los niveles, desde principiantes que buscan una introducción al lenguaje, hasta desarrolladores experimentados que desean actualizarse sobre las últimas técnicas y herramientas. Nuestro propósito es ofrecer contenido claro, útil y actualizado para ayudar a los usuarios a mejorar sus habilidades y aprovechar al máximo las capacidades de JavaScript.</p>
         <img src="imagenes/img-Objetivo.png" alt="Objetivo del Sitio">
@@ -95,7 +111,21 @@
             <iframe src="https://www.youtube.com/embed/DlphYPc_HKk" allowfullscreen></iframe>
         </div>
     </div>
- 
-</div>
+
+    <!-- Sección del mapa mental -->
+    <div id="mapamental" class="mapa">
+        <h2>Mapa Mental y Conceptual</h2>
+        <img src="imagenes/img-mapa.png" alt="Mapa Mental y Conceptual">
+        <p>El mapa mental y conceptual proporciona una visión general de los conceptos clave relacionados con los gestores de contenido web. Esta imagen ilustra las conexiones entre diferentes aspectos y funcionalidades de los CMS, permitiendo una comprensión más clara y estructurada.</p>
+    </div>
+
+        <!-- Al final del archivo index.html -->
+    <div class="autor">
+    
+        <p>Autor: <a href="index2.html">Ángel González Tacías</a></p>
+    
+    </div>
+
+
 </body>
 </html>

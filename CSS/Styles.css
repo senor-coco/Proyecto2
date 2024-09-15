@@ -215,3 +215,91 @@ table img[src="imagenes/img-LineadelTiempo.png"] {
     font-size: 18px;
     color: #e0e0e0;
 }
+
+/* Estilos para la sección del mapa mental */
+.mapa {
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.mapa h2 {
+    font-size: 28px;
+    color: #ffcc00; /* Color dorado */
+}
+
+.mapa img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Colores específicos para secciones */
+.introduccion {
+    color: #ffcc00; /* Color dorado */
+}
+
+.propósito-sitio {
+    color: #ffcc00; /* Color dorado */
+}
+
+.linea-del-tiempo {
+    color: #ffcc00; /* Color dorado */
+}
+
+/* Estilos para el índice */
+.indice {
+    width: 50%; 
+    margin: 20px auto; /* Centra el índice horizontalmente */
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px; /* Ajusta el padding */
+    border-radius: 10px;
+    text-align: center; /* Centra el texto dentro del índice */
+}
+
+.indice h2 {
+    font-size: 24px; /* Reduce el tamaño del título */
+    color: #ffcc00; /* Color dorado */
+    margin-bottom: 10px; /* Ajusta el margen inferior */
+}
+
+.indice ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+}
+
+.indice li {
+    margin-bottom: 5px; /* Ajusta el margen entre los elementos de la lista */
+}
+
+.indice a {
+    color: #ffcc00; /* Color dorado */
+    text-decoration: none;
+    font-size: 16px; 
+}
+
+.indice a:hover {
+    text-decoration: underline;
+}
+
+
+
+.autor {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.autor a {
+    color: #800080;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.autor a:hover {
+    text-decoration: underline;
+}

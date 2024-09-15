@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://vignette.wikia.nocookie.net/hollowknight/images/7/79/Promo_04.png/revision/latest/scale-to-width-down/2000?cb=20181111043345');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    border: 2px solid #800080;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    width: 80%;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+h2 {
+    color: #800080;
+    margin-top: 20px;
+    font-family: 'Courier', sans-serif;
+    text-align: left;
+    border-bottom: 2px solid #800080;
+    padding-bottom: 5px;
+}
+
+p, ul {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+a {
+    color: #800080;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.highlight {
+    background: linear-gradient(135deg, #800080, #000000);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.button {
+    background-color: #800080;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #4B0082;
+}
