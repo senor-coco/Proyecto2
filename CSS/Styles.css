@@ -10,53 +10,6 @@ body {
     padding: 0;
 }
 
-/* Encabezado principal */
-h1 {
-    text-align: center;
-    font-size: 36px;
-    color: #ffcc00; /* Color dorado */
-    margin-top: 20px;
-}
-
-/* Subtítulos */
-h2 {
-    font-size: 28px;
-    color: #ff9900; /* Color dorado más oscuro */
-}
-
-/* Estilos de la tabla */
-table {
-    width: 80%;
-    margin: 20px auto;
-    border-collapse: collapse;
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-/* Estilos de las celdas */
-td {
-    padding: 20px;
-    vertical-align: top;
-    color: #e0e0e0;
-}
-
-/* Estilos de las listas */
-ul, ol {
-    padding-left: 20px;
-    line-height: 1.6;
-}
-
-/* Estilos de las imágenes */
-img {
-    display: block;
-    margin: 0 auto;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    width: 400px;
-    height: 250px;
-}
-
 /* Portada con la imagen y el título */
 .portada {
     position: relative;
@@ -82,30 +35,103 @@ img {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
 }
 
-/* Ajuste del logotipo UNACH */
-.logo-unach {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    width: 50px; /* Tamaño reducido */
+/* Estilos de la tabla */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Estilos de las celdas */
+td {
+    padding: 20px;
+    vertical-align: top;
+    color: #e0e0e0;
+}
+
+/* Estilos de las listas */
+ul, ol {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+/* Estilos de las imágenes dentro de la tabla */
+table img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    height: 250px;
+}
+
+/* Estilos para la imagen de la línea del tiempo */
+table img[src="imagenes/img-LineadelTiempo.png"] {
+    width: 100%;
+    max-width: 800px;
     height: auto;
-    opacity: 0.8;
+    margin: 20px 0;
 }
 
-.logo-unach img {
-    width: 100%; /* Ajusta el tamaño del contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
+/* Estilos para la sección del video */
+.video {
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
 }
 
-/* Fuente personalizada */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
-body {
-    font-family: 'Roboto', sans-serif;
+.video h2 {
+    font-size: 28px;
+    color: #ffcc00; /* Color dorado */
 }
 
-/* Estilos para el subtítulo de los DLCs */
-h3 {
-    font-size: 22px;
+.video p {
+    font-size: 18px;
+    color: #e0e0e0;
+}
+
+.video iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border: none;
+}
+
+/* Estilos para los enlaces destacados */
+.enlaces-destacados {
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.enlaces-destacados h2 {
+    font-size: 28px;
+    color: #ffcc00; /* Color dorado */
+    text-align: center;
+}
+
+.enlaces-destacados ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.enlaces-destacados li {
+    margin-bottom: 10px;
+}
+
+.enlaces-destacados a {
     color: #ffcc00;
-    margin-top: 20px;
+    text-decoration: none;
+}
+
+.enlaces-destacados a:hover {
+    text-decoration: underline;
 }
